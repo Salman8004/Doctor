@@ -1,0 +1,135 @@
+header{
+  color: rgb(242, 242, 118);
+  display: flex;
+justify-content: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+font-size: xx-large;
+/* background-color: rgb(115, 174, 237); */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(img/h.png);
+  /* display: flex; */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  flex-wrap: wrap;
+}
+.nav-links ul{
+    display: inline-flex;
+    gap: 10px;
+}
+ul li {
+    cursor: pointer;
+}
+ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.hero{
+    display: flex;
+    justify-content: right;
+    padding: 70px px;
+}
+.icon {
+  border-radius: 35px;
+}
+li {
+  color: rgb(239, 236, 8);
+  display: inline;
+  
+}
+
+a:hover, a:active {
+  border-top: solid rgb(2, 3, 2);
+  color: rgb(247, 247, 247);
+  
+}
+ 
+
+.pree{
+  background-color: rgba(15, 88, 156, 0.857);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  color:white;
+  font-size: xx-large;
+
+
+}
+.pree h2{
+  color: #05e0ef;
+  margin-left: 120px;
+  padding-left: 100px;
+  align-items: center;
+  text-align: center;
+}
+footer{
+  text-align: center;
+  font-size: xx-large;
+  color: rgb(242, 242, 118);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+}
+.slider{
+  animation: slider 10s linear infinite;
+ 
+}
+@keyframes slider{
+  0%{margin-left:  -1200px; }
+  50%{ margin-right: 0px; }
+  100%{margin-left:  1000px; }
+}
+.h2{
+display: flex;
+justify-content: left;
+color: white;
+padding-left: 20px;
+}
+.image{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-between;
+  margin: 12px;
+
+}
+@media only screen and (max-width:400px) {
+  
+}
+div p{color: white;}
+div pre{
+  color: white;
+}
+div h2 {
+  color:rgb(233, 238, 95);
+  margin: 12px;
+  background-color: rgba(15, 88, 156, 0.857);
+}
+.li{background-color: rgba(15, 88, 156, 0.857);
+  color: gold;
+}
+
